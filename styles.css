@@ -1,0 +1,68 @@
+#principal{
+    text-align: center;
+    color: red;
+    border: 3px solid black; /* Borde de 3px de ancho, color negro */
+    padding: 10px; /* Añade espacio entre el contenido (el texto) y el borde, haciendo que el borde no quede pegado al texto */
+    font-size: 6rem;
+    width: fit-content;
+    margin:auto;
+    border-radius: 10px;
+    
+}
+
+
+.title{
+    font-size: 3rem;
+    color:darkviolet;
+    text-decoration: underline;
+    margin:auto;
+    text-align: center;
+    margin-top: 1.5em;
+
+}
+
+#segundotitulo{
+    font-size: 2rem;
+    color: black;
+}
+
+.form{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.articulos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+
+.card{
+    border: 2px solid rgb(75, 3, 47);
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(121, 24, 24, 0.1);
+    font-size: 1.5em;
+    color: red;
+    
+}
+
+.card:hover{
+    background-color: aqua;
+}
+
+.logo{
+    width: 500px;
+    
+}
+
+footer {
+    margin-top: 100px; /* Agrega espacio entre el contenido y el footer */
+}

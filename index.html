@@ -3,39 +3,46 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./styles.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
     <header>
-        <h1>Mi primer sitio web</h1>
+        <h1 id="principal">Mi primer sitio web</h1>
     </header>
     <main>
-        <h2>Presentación</h2>
+        <h2 class="title">Presentación</h2>
         <div>
             <form>
-                <div>
-                    <label for="name">Nombre:</label>
-                    <input type="text" name="name">
+                <div class="form">
+                    <input type="text" name="name" placeholder="Nombre">
                 </div>
-                <div>
+                <div class="form">
                     <input type="text" name="surname" placeholder="Apellido"> 
                 </div>
-                <div>
+                <div class="form">
                     <input type="number" name="age" placeholder="Edad">
                 </div>
             </form>
         </div>
         <hr />
         <div>
-            <h3>Cosas que me gustan</h3>
+            <h3 class="title" id="segundotitulo">Cosas que me gustan</h3>
             <div>
                 <section>
-                    <article>
-                        <ul>
-                            <li>Jugar al futbol</li><img src="./futbol.jpg" /> 
-                            <li>Tocar la guitarra</li><img src="guitarra.jpg"/>
-                            <li>Jugar juegos competitivos</li><img src="./Pc gamer.jpg"/>
-                        </ul>
+                    <article class="articulos">
+                        <div class="card">
+                            <h4>Tocar la guitarra</h4>
+                            <img src="./guitarra.jpg" alt="Guitarra" class="logo"/>
+                        </div>
+                        <div class="card">
+                            <h4>Jugar al futbol</h4>
+                            <img src="./futbol.jpg" alt="Futbol" class="logo"/>
+                        </div>
+                        <div class="card">
+                            <h4>Jugar juegos competitivos</h4>
+                            <img src="./Pc gamer.jpg" alt="Juegos" class="logo"/>
+                        </div>
                     </article>
                 </section>
             </div>
